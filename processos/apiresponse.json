@@ -1,0 +1,835 @@
+{
+    "took": 3474,
+    "timed_out": false,
+    "_shards": {
+        "total": 3,
+        "successful": 3,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 15.309681,
+        "hits": [
+            {
+                "_index": "api_publica_tjba",
+                "_id": "TJBA_G1_00000011119928050273",
+                "_score": 15.309681,
+                "_source": {
+                    "id": "TJBA_G1_00000011119928050273",
+                    "tribunal": "TJBA",
+                    "grau": "G1",
+                    "numeroProcesso": "00000011119928050273",
+                    "dataAjuizamento": "19920305000000",
+                    "nivelSigilo": 0,
+                    "orgaoJulgador": {
+                        "codigo": 5403,
+                        "nome": "VARA JURISDIÇÃO PLENA",
+                        "codigoMunicipioIBGE": 2920106
+                    },
+                    "classe": {
+                        "codigo": 1116,
+                        "nome": "Execução Fiscal"
+                    },
+                    "sistema": {
+                        "codigo": 1,
+                        "nome": "PJe"
+                    },
+                    "formato": {
+                        "codigo": 1,
+                        "nome": "Eletrônico"
+                    },
+                    "dataHoraUltimaAtualizacao": "2026-07-06T20:09:28.420000Z",
+                    "@timestamp": "2026-07-06T20:09:28.420000Z",
+                    "movimentos": [
+                        {
+                            "codigo": 26,
+                            "dataHora": "1992-03-05T00:00:00.000Z",
+                            "nome": "Distribuição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 2,
+                                    "descricao": "tipo_de_distribuicao_redistribuicao",
+                                    "valor": 2,
+                                    "nome": "sorteio"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2010-12-03T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2011-08-26T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2011-09-15T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2011-09-15T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Petição (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 581,
+                            "dataHora": "2011-10-19T00:00:00.000Z",
+                            "nome": "Documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2011-10-19T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 581,
+                            "dataHora": "2011-11-09T00:00:00.000Z",
+                            "nome": "Documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2011-11-09T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2013-11-12T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2018-10-08T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2018-10-08T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 10966,
+                            "dataHora": "2019-05-13T00:00:00.000Z",
+                            "nome": "Mudança de Classe Processual",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 26,
+                                    "descricao": "classe_anterior",
+                                    "valor": 7,
+                                    "nome": "entregue ao destinatário"
+                                },
+                                {
+                                    "codigo": 27,
+                                    "descricao": "classe_nova",
+                                    "valor": 7,
+                                    "nome": "entregue ao destinatário"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2019-05-31T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2022-05-20T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2022-07-14T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Petição (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2022-07-14T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Petição (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2022-07-14T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 14738,
+                            "dataHora": "2025-06-03T00:00:00.000Z",
+                            "nome": "Retificação de Classe Processual",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 26,
+                                    "descricao": "classe_anterior",
+                                    "valor": 7,
+                                    "nome": "entregue ao destinatário"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2025-06-16T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 5,
+                                    "nome": "para despacho"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2025-10-21T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2025-10-24T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2025-11-17T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 44,
+                                    "nome": "Apelação"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2025-11-28T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 6,
+                                    "nome": "para decisão"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2026-02-03T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Petição (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2026-02-20T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 80,
+                                    "nome": "Outros documentos"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 60,
+                            "dataHora": "2026-02-20T00:00:00.000Z",
+                            "nome": "Expedição de documento",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 4,
+                                    "descricao": "tipo_de_documento",
+                                    "valor": 78,
+                                    "nome": "Mandado"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2026-03-02T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Petição (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 106,
+                            "dataHora": "2026-03-02T00:00:00.000Z",
+                            "nome": "Mandado",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 6,
+                                    "descricao": "resultado",
+                                    "valor": 7,
+                                    "nome": "entregue ao destinatário"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 85,
+                            "dataHora": "2026-03-12T00:00:00.000Z",
+                            "nome": "Petição",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 19,
+                                    "descricao": "tipo_de_peticao",
+                                    "valor": 57,
+                                    "nome": "Petição (outras)"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 51,
+                            "dataHora": "2026-06-02T00:00:00.000Z",
+                            "nome": "Conclusão",
+                            "complementosTabelados": [
+                                {
+                                    "codigo": 3,
+                                    "descricao": "tipo_de_conclusao",
+                                    "valor": 6,
+                                    "nome": "para decisão"
+                                }
+                            ],
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1051,
+                            "dataHora": "2010-12-03T00:00:00.000Z",
+                            "nome": "Decurso de Prazo",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 132,
+                            "dataHora": "2011-02-23T00:00:00.000Z",
+                            "nome": "Recebimento",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 118,
+                            "dataHora": "2011-09-15T00:00:00.000Z",
+                            "nome": "Protocolo de Petição",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 11010,
+                            "dataHora": "2012-10-17T00:00:00.000Z",
+                            "nome": "Mero expediente",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 11010,
+                            "dataHora": "2015-03-04T00:00:00.000Z",
+                            "nome": "Mero expediente",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 12315,
+                            "dataHora": "2019-05-23T00:00:00.000Z",
+                            "nome": "Devolvidos os autos",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 11010,
+                            "dataHora": "2022-04-04T00:00:00.000Z",
+                            "nome": "Mero expediente",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1061,
+                            "dataHora": "2022-05-20T00:00:00.000Z",
+                            "nome": "Disponibilização no Diário da Justiça Eletrônico",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 92,
+                            "dataHora": "2022-05-24T00:00:00.000Z",
+                            "nome": "Publicação",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1061,
+                            "dataHora": "2022-05-24T00:00:00.000Z",
+                            "nome": "Disponibilização no Diário da Justiça Eletrônico",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1051,
+                            "dataHora": "2022-07-13T00:00:00.000Z",
+                            "nome": "Decurso de Prazo",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 11878,
+                            "dataHora": "2025-10-21T00:00:00.000Z",
+                            "nome": "Prescrição",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 457,
+                            "dataHora": "2025-10-21T00:00:00.000Z",
+                            "nome": "Paralisação por negligência das partes",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 12282,
+                            "dataHora": "2025-10-24T00:00:00.000Z",
+                            "nome": "Expedida/Certificada",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1061,
+                            "dataHora": "2025-10-28T00:00:00.000Z",
+                            "nome": "Disponibilização no Diário da Justiça Eletrônico",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 92,
+                            "dataHora": "2025-10-29T00:00:00.000Z",
+                            "nome": "Publicação",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1051,
+                            "dataHora": "2025-11-20T00:00:00.000Z",
+                            "nome": "Decurso de Prazo",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1051,
+                            "dataHora": "2025-11-20T00:00:00.000Z",
+                            "nome": "Decurso de Prazo",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1051,
+                            "dataHora": "2025-11-20T00:00:00.000Z",
+                            "nome": "Decurso de Prazo",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 12281,
+                            "dataHora": "2025-12-10T00:00:00.000Z",
+                            "nome": "Comunicação eletrônica",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 12281,
+                            "dataHora": "2025-12-10T00:00:00.000Z",
+                            "nome": "Comunicação eletrônica",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 11010,
+                            "dataHora": "2025-12-10T00:00:00.000Z",
+                            "nome": "Mero expediente",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 985,
+                            "dataHora": "2026-02-20T00:00:00.000Z",
+                            "nome": "Mandado",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 12282,
+                            "dataHora": "2026-02-20T00:00:00.000Z",
+                            "nome": "Expedida/Certificada",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 11383,
+                            "dataHora": "2026-02-20T00:00:00.000Z",
+                            "nome": "Ato ordinatório",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 92,
+                            "dataHora": "2026-02-24T00:00:00.000Z",
+                            "nome": "Publicação",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        },
+                        {
+                            "codigo": 1061,
+                            "dataHora": "2026-02-24T00:00:00.000Z",
+                            "nome": "Disponibilização no Diário da Justiça Eletrônico",
+                            "orgaoJulgador": {
+                                "codigo": "5403",
+                                "nome": "V DOS FEITOS DE REL DE CONS CIV E COM. DE MAIRI"
+                            }
+                        }
+                    ],
+                    "assuntos": [
+                        {
+                            "codigo": 6062,
+                            "nome": "1/3 de férias"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
