@@ -12,7 +12,7 @@ if not senhaDB:
    )
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:amokeale21@localhost:5432/ExeJud"
+    f"postgresql+psycopg2://postgres:{senhaDB}@localhost:5432/ExeJud"
 )
   
 def formatar_cnj(n: str) -> str:
@@ -32,7 +32,7 @@ headers = {
 dados = {
     "query": {
         "term": {
-            "numeroProcesso": "00000011119928050273"
+            "numeroProcesso": "00006603020084013304"
         }
     }
 }
