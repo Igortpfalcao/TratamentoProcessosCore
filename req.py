@@ -4,6 +4,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.dialects.postgresql import JSONB
 import os
+import re
 
 senhaDB = os.environ.get('DbSenha')
 if not senhaDB:
@@ -21,8 +22,11 @@ def formatar_cnj(n: str) -> str:
         raise ValueError(f"Número CNJ inválido: {n}")
     return f"{n[:7]}-{n[7:9]}.{n[9:13]}.{n[13]}.{n[14:16]}.{n[16:]}"
 
+def so_digitos(n: str) -> str:
+    return re.sub(r"\D", "", n or "")
 
-url = "https://api-publica.datajud.cnj.jus.br/api_publica_tjba/_search"
+
+url = "https://api-publica.datajud.cnj.jus.br/api_publica_trf1/_search"
 
 headers = {
     "Authorization": "APIKey cDZHYzlZa0JadVREZDJCendQbXY6SkJlTzNjLV9TRENyQk1RdnFKZGRQdw==",
@@ -32,7 +36,7 @@ headers = {
 dados = {
     "query": {
         "term": {
-            "numeroProcesso": "00006603020084013304"
+            "numeroProcesso": "00034018920074013300"
         }
     }
 }
